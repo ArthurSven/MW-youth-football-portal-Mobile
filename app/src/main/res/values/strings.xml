@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mw Youth football portal</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="myfp">MYFP</string>
+    <string name="home">Home</string>
+    <string name="agents">Agents</string>
+    <string name="teams">Teams</string>
+    <string name="welcome_to_the_portal_where_we_never_let_a_talented_youth_players_go_unnoticed_sign_up_either_as_an_agent_or_a_team">Welcome to the portal where we never let a talented youth players go unnoticed. Sign up either as an Agent or a team</string>
+</resources>

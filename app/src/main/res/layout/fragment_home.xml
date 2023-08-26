@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.homeFragments.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/homeLinear"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/youth"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+                <TextView
+                    android:id="@+id/greeting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            <TextView
+                android:id="@+id/homeParagraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/welcome_to_the_portal_where_we_never_let_a_talented_youth_players_go_unnoticed_sign_up_either_as_an_agent_or_a_team"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/agentButton"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/bg_dark"
+                    android:text="@string/agents"/>
+                <Button
+                    android:id="@+id/teamButton"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/bg_dark"
+                    android:text="@string/teams"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

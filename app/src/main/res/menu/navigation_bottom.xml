@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_action_home"/>
+    <item android:id="@+id/agent"
+        android:title="@string/agents"
+        android:icon="@drawable/ic_action_agent"/>
+    <item android:id="@+id/team"
+        android:title="@string/teams"
+        android:icon="@drawable/ic_action_team"/>
+</menu>
