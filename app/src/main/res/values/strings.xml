@@ -14,4 +14,16 @@
     <string name="agents">Agents</string>
     <string name="teams">Teams</string>
     <string name="welcome_to_the_portal_where_we_never_let_a_talented_youth_players_go_unnoticed_sign_up_either_as_an_agent_or_a_team">Welcome to the portal where we never let a talented youth players go unnoticed. Sign up either as an Agent or a team</string>
+    <string name="agent_section_1">AGENT SECTION</string>
+    <string name="here_you_can_register_as_an_agent_an_agent_on_this_platform_is_an_entity_that_is_responsible_for_a_player_profile_that_includes_content_as_well_as_any_transactions_related_to_a_player">Here you can register as an agent. An agent on this platform is an entity that is responsible for a player profile, that includes content as well as any transactions related to a player</string>
+    <string name="agent_login">Agent login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="agent_section_login">Agent Section Login</string>
+    <string name="agent_section_registration">Agent Section Registration</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">Email</string>
 </resources>
